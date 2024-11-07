@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["resources/js/*"]
+        },
+
+        "checkJs" : false // JSはエラーを出さない
+    },
+    "exclude": ["node_modules", "public"]
+}
